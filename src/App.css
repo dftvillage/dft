@@ -1,0 +1,44 @@
+.wrapper{
+    min-width: 320px;
+    overflow: hidden;
+    background: #f1f1f1;
+}
+.articles{
+    width: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 15px
+}
+.article{
+    margin-bottom: 15px;
+}
+.arcticle__title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.arcticle__date{
+    font-size: 75%;
+    margin-bottom: 5px;
+}
+.arcticle__text{
+    font-size: 100%;
+}
+.arcticle__comments{
+    margin: 15px auto 0;
+}
+.arcticle__comments,
+.comment__text{
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.arcticle__comment{
+    margin-bottom: 15px;
+}
+.comment__user{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 80%;
+}
+.comment__text{
+    font-size: 75%;
+}
